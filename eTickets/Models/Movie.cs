@@ -28,7 +28,7 @@ namespace eTickets.Models
 
         //Cinema
         public int CinemaId { get; set; }
-        [ForeignKey ("CinemaId")] //??
+        [ForeignKey ("CinemaId")] // flow control use instead of leaving it to c# to define the foreign key
         public Cinema Cinema { get; set; }
 
         //Producer
